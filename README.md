@@ -20,16 +20,11 @@ FundMe is a decentralized crowdfunding smart contract built on Ethereum. It allo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/serEmir/fundme.git
-cd fundme
+git clone https://github.com/serEmir/foundry-Fundme.git
+cd foundry-Fundme
 ```
 
-2. Install dependencies:
- ```bash
-forge install
-```
-
-3. Configure environment variables: Create a `.env` file and add the following:
+2. Configure environment variables: Create a `.env` file and add the following:
    ```bash
    SEPOLIA_RPC_URL=<your-sepolia-rpc-url>
    ETHERSCAN_API_KEY=<your-ethers-api-key>
