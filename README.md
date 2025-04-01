@@ -29,11 +29,21 @@ cd fundme
 forge install
 ```
 
-4. Configure environment variables: Create a `.env` file and add the following:
+3. Configure environment variables: Create a `.env` file and add the following:
+   ```bash
    SEPOLIA_RPC_URL=<your-sepolia-rpc-url>
    ETHERSCAN_API_KEY=<your-ethers-api-key>
+   ```
 
 ## Usage
+
+**Encrypt a Private Key in a keystore**
+
+To encrypt a private key in a keystore so you don't have your private key in plain sight, use:
+```bash
+cast wallet import <your-account-name> --interactive
+```
+follow the prompt and provide your private key and a password
 
 **Deploy the Contract**
 
